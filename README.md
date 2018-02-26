@@ -1,5 +1,13 @@
 # Credit-Card-Fraud-Detection
 Objective is to find the top 10 similar transactions for any given transaction in the dataset using Linear Algebra. 
+Info about dataset: it is a CSV file, contains 31 features, the last feature is used to classify the transaction whether it is a fraud or not
+
+Calculate
+similarity(i,j) = cosine^-1(dot product (vi, vj) / (length(vi) * length(vj)) )
+Find out top 10 transactions in the dataset which have the lowest similarity(i,j).
+
+Dataset can be downloaded from kaggle or the below link:
+https://www.kaggle.com/saimarapareddy/credit-card-fraud-detection/data
 
 
 About this Dataset
